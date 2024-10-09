@@ -124,10 +124,6 @@ body {
     -2px -1px 0 #000000;
 }
 
-.btn {
-    color: white;
-}
-
 .dropdown-item {
     color: white;
     font-family: "roca", sans-serif;
@@ -158,3 +154,20 @@ body {
     2px -1px 0 #000000,
     -2px -1px 0 #000000;
 } 
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 16px;
+    background: #000000;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+  }
